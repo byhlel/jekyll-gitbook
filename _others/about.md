@@ -1,9 +1,17 @@
 ---
-title: About others
-author: Tao He
-date: 2022-02-04
+title: Glossary
+author: Bilal MAJJAD
+date: 2024-09-17
 category: Jekyll
 layout: post
 ---
 
-This is an about page for "others" in the collections.
+{% for entry in 
+site.data.glossary %}
+- [**{{ entry.term }}**][{{entry.url}}] : {{entry.definition}}
+{% endfor %}
+
+[Github Pages][1] without generating and uploading HTML bundle every time when there are
+changes to the original repository.
+
+[1]: https://pages.github.com
