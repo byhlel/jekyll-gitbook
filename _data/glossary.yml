@@ -6,7 +6,147 @@
 - term: Jamstack
   definition: JavaScript + API + Markup - a way of buildin and hosting websites.
   url: https://jamstack.org/
-- term: EmbeddedLiquidURL
-  definition: This definition has an URL with embedded liquid tags to make it dynamic at build time. Note special YAML syntax for being able to use liquid (1.)
-  url: >
-    {{ site.baseurl }}{% link page2.md %}
+- term: IP
+  definition: Internet Protocol, a set of rules governing the format of data sent over the internet or local network.
+  url: https://en.wikipedia.org/wiki/Internet_Protocol
+- term: IPv4
+  definition: Internet Protocol version 4, the fourth version of the Internet Protocol, using a 32-bit address scheme allowing for over 4 billion unique addresses.
+  url: https://en.wikipedia.org/wiki/IPv4
+- term: IOCs
+  definition: Indicators of Compromise, pieces of forensic data that identify potentially malicious activity on a system or network.
+  url: https://www.cisa.gov/publications-library/publications/indicators-compromise-iocs
+- term: Zero Trust
+  definition: A security model that requires strict identity verification for every person and device attempting to access resources on a network, regardless of whether they are inside or outside the network perimeter.
+  url: https://www.csoonline.com/article/3510181/what-is-zero-trust-security-how-to-implement-it-and-why-your-business-needs-it.html
+- term: Kubernetes
+  definition: An open-source container orchestration system for automating the deployment, scaling, and management of containerized applications.
+  url: https://kubernetes.io/
+- term: VPN
+  definition: Virtual Private Network, a technology that creates a secure connection over a less secure network, such as the Internet.
+  url: https://en.wikipedia.org/wiki/Virtual_private_network
+- term: Firewall
+  definition: A network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+  url: https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html
+- term: DDoS
+  definition: Distributed Denial of Service, a malicious attempt to disrupt the normal functioning of a targeted server, service, or network by overwhelming it with a flood of traffic.
+  url: https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/
+- term: Phishing
+  definition: A type of cyber-attack where attackers impersonate a trusted entity to deceive individuals into revealing sensitive information such as usernames, passwords, and credit card numbers.
+  url: https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams
+- term: MFA
+  definition: Multi-Factor Authentication, an additional security layer requiring not only a password and username but also something that only the user has on them.
+  url: https://www.csoonline.com/article/3241792/what-is-multi-factor-authentication-mfa.html
+- term: SIEM
+  definition: Security Information and Event Management, a software solution that gathers and analyzes security data from across an organization’s technology infrastructure in real time.
+  url: https://www.ibm.com/security/information-security-what-is-siem
+- term: TLS
+  definition: Transport Layer Security, a cryptographic protocol designed to provide secure communication over a computer network.
+  url: https://tools.ietf.org/html/rfc5246
+- term: Ransomware
+  definition: A type of malicious software that encrypts a victim's files, with an intention to demand a ransom from the victim to restore access to their data.
+  url: https://www.cisa.gov/archives/2021-02-05-what-ransomware
+- term: Malware
+  definition: Malicious software, including viruses, worms, trojan horses, and more, designed to disrupt, damage, or gain unauthorized access to computer systems.
+  url: https://www.cisco.com/c/en/us/products/security/malware.html
+- term: Threat Intelligence
+  definition: Information that organizations use to understand the threats that have, will, or are currently targeting them, enabling them to make informed security decisions.
+  url: https://www.cisecurity.org/insights/what-is-threat-intelligence/
+- term: SOC
+  definition: Security Operations Center, a centralized unit that deals with security issues on an organizational and technical level, including monitoring, detecting, and responding to security incidents.
+  url: https://www.csoonline.com/article/3187828/what-is-a-security-operations-center-soc.html
+- term: IDS
+  definition: Intrusion Detection System, a device or software application that monitors a network or systems for malicious activity or policy violations.
+  url: https://www.cisco.com/c/en/us/products/security/intrusion-detection-system-ids/what-is-ids.html
+- term: IPS
+  definition: Intrusion Prevention System, a network security device that examines network traffic for malicious activities and works to block those threats in real-time.
+  url: https://www.cisco.com/c/en/us/products/security/intrusion-prevention-system-ips/what-is-ips.html
+- term: SSL
+  definition: Secure Sockets Layer, a standard security technology for establishing an encrypted link between a server and client, often used to secure online transactions. 
+  url: https://www.cloudflare.com/learning/how-tls-ssl-works/what-is-ssl/
+- term: APT
+  definition: Advanced Persistent Threat, a sophisticated and targeted cyberattack wherein an unauthorized user gains access to a network and remains undetected for an extended period.
+  url: https://www.cisco.com/c/en/us/products/security/what-is-advanced-persistent-threat-apt.html
+- term: BYOD
+  definition: Bring Your Own Device, a policy that allows employees to use their personal devices (laptops, smartphones) for work-related tasks, often raising security concerns.
+  url: https://www.csoonline.com/article/2902113/what-is-byod-and-why-is-it-important.html
+- term: RADIUS
+  definition: Remote Authentication Dial-In User Service, a networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management for users who connect and use a network service.
+  url: https://en.wikipedia.org/wiki/RADIUS
+- term: VLAN
+  definition: Virtual Local Area Network, a subnet that can group together computers from different physical networks to provide additional security and manage traffic efficiently.
+  url: https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/vlans.html
+- term: MITM
+  definition: Man-In-The-Middle, a form of eavesdropping where the attacker inserts themselves into a conversation between two parties, either to secretly listen or manipulate the information.
+  url: https://www.cloudflare.com/learning/security/glossary/man-in-the-middle-attack-mitm/
+- term: Dark Web
+  definition: A part of the internet that is not indexed by traditional search engines and requires specific software or configurations to access, often associated with illicit activities.
+  url: https://www.fbi.gov/investigate/terrorism/terrorist-websites/dark-web
+- term: sandboxes
+  definition: An isolated testing environment that mimics a production environment but allows developers or security teams to run experiments without risk to the larger system.
+  url: https://www.paloaltonetworks.com/cyberpedia/what-is-a-sandbox
+- term: Encryption
+  definition: The process of converting information or data into a code to prevent unauthorized access, ensuring the confidentiality of sensitive data during transmission.
+  url: https://www.cloudflare.com/learning/tutorials/what-is-encryption/
+- term: VPN Concentrator
+  definition: A networking device that creates and manages hundreds or thousands of VPN connections and provides secure remote access to users.
+  url: https://www.cisco.com/c/en/us/products/security/vpn-concentrator/index.html
+- term: ACL
+  definition: Access Control List, a set of rules that determines who can access certain resources and what operations they can perform on those resources.
+  url: https://www.cloudflare.com/learning/access-control-lists-acl/
+- term: Use Case
+  definition: A scenario that defines how a system will be used to fulfill specific requirements, often utilized in the analysis and design of security protocols.
+  url: https://www.techtarget.com/search/query?q=use+case
+- term: CISO
+  definition: Chief Information Security Officer, an executive responsible for an organization’s information and data security strategy, planning, and implementation.
+  url: https://www.nist.gov/documents/roi-ciso-overview-presentation
+- term: Penetration Testing
+  definition: A simulated cyber attack against a computer system or network to identify vulnerabilities that an attacker could exploit.
+  url: https://www.csoonline.com/article/3282287/what-is-penetration-testing-how-it-works-techniques-and-use-cases.html
+- term: SIEM
+  definition: Security Information and Event Management, a comprehensive solution that aggregates and analyzes security data from across an organization’s IT infrastructure.
+  url: https://www.ibm.com/security/information-security-what-is-siem
+- term: IAM
+  definition: Identity and Access Management, a framework for managing user identities and access privileges across corporate networks to enhance security and ensure compliance.
+  url: https://www.ibm.com/cloud/identity-and-access-management
+- term: Threat Modeling
+  definition: A structured method for identifying potential risks and vulnerabilities in a system, allowing for the examination of the system's architecture and planning for potential security issues.
+  url: https://owasp.org/www-community/Threat_Modeling_1
+- term: SOC 2
+  definition: A compliance standard designed for service providers storing customer data in the cloud, ensuring that they manage data securely to protect the privacy of their clients.
+  url: https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/soc-2.html
+- term: GDPR
+  definition: General Data Protection Regulation, a comprehensive data privacy law in the European Union that governs how organizations handle personal data.
+  url: https://gdpr.eu/
+- term: TTP
+  definition: Tactics, Techniques, and Procedures, a term used in cybersecurity to describe the behavior or modus operandi of cyber adversaries consistently across different attacks.
+  url: https://www.cisa.gov/publications-library/publications/ttps-and-the-mitre-attack-framework
+- term: EDR
+  definition: Endpoint Detection and Response, a cybersecurity technology that monitors endpoint devices to detect and respond to threats in real time.
+  url: https://www.crowdstrike.com/cybersecurity-101/what-is-edr/
+- term: MFA/2FA
+  definition: Multi-Factor Authentication/Two-Factor Authentication, a security measure that requires two or more verification methods to gain access to a resource or system.
+  url: https://www.okta.com/identity-101/what-is-mfa/
+- term: Bait-and-Switch
+  definition: A deceptive practice where a user is lured into clicking on a link or downloading software under false pretenses, often leading to unwanted software or malware.
+  url: https://www.techopedia.com/definition/27988/bait-and-switch
+- term: Botnet
+  definition: A network of infected computers controlled as a group without the owners’ knowledge, often used to launch distributed denial-of-service (DDoS) attacks or send spam.
+  url: https://www.cloudflare.com/learning/bots/what-is-a-botnet/
+- term: Cyber Hygiene
+  definition: Best practices and maintenance tasks that individuals and organizations should implement to secure their networks and data against cyber threats.
+  url: https://cyberhygiene.com/
+- term: Brute Force Attack
+  definition: A trial-and-error method used by attackers to guess passwords or encryption keys through exhaustive effort, systematically checking all possible combinations.
+  url: https://www.cloudflare.com/learning/ddos/what-is-a-brute-force-attack/
+- term: OSINT
+  definition: Open Source Intelligence, information collected from publicly available sources to be used in an intelligence context, often utilized in cybersecurity threat assessments.
+  url: https://www.breachdirectory.com/resources/what-is-osint/
+- term: XSS
+  definition: Cross-Site Scripting, a vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users, often to steal session cookies or redirect users.
+  url: https://owasp.org/www-community/attacks/xss/
+- term: DNS Spoofing
+  definition: A form of cyber-attack where attackers corrupt a DNS server's cache, redirecting users frequently to fraudulent sites without their knowledge.
+  url: https://www.cloudflare.com/learning/dns/dns-spoofing/
+- term: Policy Enforcement
+  definition: Mechanisms used to enforce rules and guidelines within an organization regarding secure resource use and access to ensure compliance and risk management.
+  url: https://www.cisco.com/c/en/us/products/enterprise-networks/what-is-policy-enforcement.html
