@@ -50,7 +50,7 @@ exclude:
   - _drafts
 
 collections:
-  pages:
+  projects:
     output: true
     permalink: /:collection/:path/
   others:
@@ -59,7 +59,7 @@ collections:
 
 ordered_collections:
   - posts
-  - pages
+  - projects
   - others
 
 page_width: 800px
