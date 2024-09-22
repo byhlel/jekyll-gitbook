@@ -81,7 +81,7 @@
 - term: Dark Web
   definition: A part of the internet that is not indexed by traditional search engines and requires specific software or configurations to access, often associated with illicit activities.
   url: https://www.fbi.gov/investigate/terrorism/terrorist-websites/dark-web
-- term: sandboxes
+- term: Sandboxes
   definition: An isolated testing environment that mimics a production environment but allows developers or security teams to run experiments without risk to the larger system.
   url: https://www.paloaltonetworks.com/cyberpedia/what-is-a-sandbox
 - term: Encryption
@@ -150,3 +150,9 @@
 - term: Policy Enforcement
   definition: Mechanisms used to enforce rules and guidelines within an organization regarding secure resource use and access to ensure compliance and risk management.
   url: https://www.cisco.com/c/en/us/products/enterprise-networks/what-is-policy-enforcement.html
+- term: Webhook
+  definition: A webhook is a user-defined HTTP callback that is triggered by specific events, allowing one application to send real-time data to another application when an event occurs. This enables automated communication between systems without the need for constant polling.
+  url: https://en.wikipedia.org/wiki/Webhook
+- term: RESTful API
+  definition: A RESTful API (Representational State Transfer API) is an application programming interface that adheres to the principles of REST architecture, allowing for interaction with web services through standard HTTP methods. It enables the exchange of data between clients and servers in a stateless manner, typically using formats like JSON or XML.
+  url: https://www.redhat.com/en/topics/api/what-is-a-rest-api

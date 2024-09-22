@@ -6,7 +6,11 @@ category: Jekyll
 layout: post
 ---
 
+
+
+{% assign sorted_entries = site.data.glossary | sort_natural: 'term' %}
+
 {% for entry in 
-site.data.glossary %}
+sorted_entries %}
 - [**{{ entry.term }}**]({{entry.url}}){:target="_blank"} : {{entry.definition}}
 {% endfor %}
